@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Himanshu Verma</h1>
 <h3 align="center">A passionate Software Engineer from India</h3>
 
+[![himanshuverma0912's GitHub | Stats](https://stats.quine.sh/himanshuverma0912/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=himanshuverma0912)
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=himanshuverma0912&label=Profile%20views&color=0e75b6&style=flat" alt="himanshuverma0912" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=himanshuverma0912" alt="himanshuverma0912" /></a> </p>
