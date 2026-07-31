@@ -35,10 +35,21 @@ query($login: String!) {
       totalCommitContributions
       totalPullRequestReviewContributions
     }
+    pinnedItems(first: 6, types: [REPOSITORY]) {
+      nodes {
+        ... on Repository {
+          name description url stargazerCount
+          primaryLanguage { name }
+          repositoryTopics(first: 4) { nodes { topic { name } } }
+        }
+      }
+    }
     repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
       totalCount
       nodes {
-        stargazerCount
+        name description url stargazerCount pushedAt
+        primaryLanguage { name }
+        repositoryTopics(first: 4) { nodes { topic { name } } }
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
         }
@@ -79,6 +90,30 @@ def fetch_stats(token, login):
 
     commits = u["contributionsCollection"]["totalCommitContributions"]
     reviews = u["contributionsCollection"]["totalPullRequestReviewContributions"]
+
+    # ---- featured projects: prefer pinned repos, else top by stars then recency ----
+    def repo_to_proj(r):
+        if not r:
+            return None
+        stack = []
+        if r.get("primaryLanguage"):
+            stack.append(r["primaryLanguage"]["name"])
+        topics = [t["topic"]["name"] for t in r.get("repositoryTopics", {}).get("nodes", [])]
+        stack += topics[:2]
+        # de-dupe while preserving order
+        stack = list(dict.fromkeys(stack))
+        return {
+            "name": r["name"],
+            "desc": (r.get("description") or "").strip(),
+            "url": r["url"],
+            "stack": " · ".join(stack),
+        }
+
+    pinned = [p for p in (repo_to_proj(n) for n in u["pinnedItems"]["nodes"]) if p]
+    ranked = sorted(repos, key=lambda r: (r.get("stargazerCount", 0), r.get("pushedAt") or ""), reverse=True)
+    top = [p for p in (repo_to_proj(r) for r in ranked) if p]
+    projects = pinned if pinned else top[:6]
+
     return {
         "name": (u["name"] or u["login"]),
         "login": u["login"],
@@ -91,6 +126,7 @@ def fetch_stats(token, login):
         "followers": u["followers"]["totalCount"],
         "lang_size": lang_size,
         "lang_color": lang_color,
+        "projects": projects,
     }
 
 
@@ -286,8 +322,89 @@ def build_trophies_svg(s):
 
 
 # ----------------------------------------------------------------------------
-# 4. Main
+# 4. Featured projects -> rewrite the README table between markers
 # ----------------------------------------------------------------------------
+PROJ_START = "<!-- PROJECTS:START -->"
+PROJ_END = "<!-- PROJECTS:END -->"
+
+
+def build_projects_md(projects):
+    lines = ["| 🚀 Project | Description | Stack |", "|:--|:--|:--|"]
+    if not projects:
+        lines.append("| _No public repositories yet_ | Come back soon — building in progress! | — |")
+        return "\n".join(lines)
+    for p in projects[:6]:
+        desc = (p["desc"] or "—").replace("|", "\\|")
+        if len(desc) > 90:
+            desc = desc[:87].rstrip() + "…"
+        stack = (p["stack"] or "—").replace("|", "\\|")
+        lines.append(f"| **[{p['name']}]({p['url']})** | {desc} | {stack} |")
+    return "\n".join(lines)
+
+
+def update_readme_projects(readme_path, projects):
+    if not os.path.exists(readme_path):
+        print("README.md not found, skipping projects update.")
+        return
+    text = open(readme_path, encoding="utf-8").read()
+    if PROJ_START not in text or PROJ_END not in text:
+        print("Project markers not found in README, skipping.")
+        return
+    table = build_projects_md(projects)
+    new = re.sub(
+        re.escape(PROJ_START) + r".*?" + re.escape(PROJ_END),
+        f"{PROJ_START}\n{table}\n{PROJ_END}",
+        text, flags=re.S,
+    )
+    if new != text:
+        open(readme_path, "w", encoding="utf-8").write(new)
+        print(f"updated {readme_path} with {len(projects)} projects")
+    else:
+        print("README projects already up to date.")
+
+
+# ----------------------------------------------------------------------------
+# 4b. Years of experience -> auto-computed from career start, patched everywhere
+# ----------------------------------------------------------------------------
+CAREER_START = datetime.date(2020, 1, 6)  # first role (TCS), from resume
+
+
+def years_of_experience(today=None):
+    today = today or datetime.date.today()
+    return f"{(today - CAREER_START).days / 365.25:.1f}"
+
+
+def update_years(outdir, years):
+    # README badge + whoami sentence
+    rp = os.path.join(outdir, "README.md")
+    if os.path.exists(rp):
+        t = open(rp, encoding="utf-8").read()
+        o = t
+        t = re.sub(r'Experience-[\d.]+%2B', f'Experience-{years}%2B', t)
+        t = re.sub(r'\*\*[\d.]+\+ years\*\*', f'**{years}+ years**', t)
+        if t != o:
+            open(rp, "w", encoding="utf-8").write(t)
+            print(f"README years -> {years}")
+
+    # banner.svg + banner-light.svg (about line + code-card exp value)
+    for bf in ("banner.svg", "banner-light.svg"):
+        bp = os.path.join(outdir, bf)
+        if not os.path.exists(bp):
+            continue
+        t = open(bp, encoding="utf-8").read()
+        o = t
+        t = re.sub(r'(&#8226; )[\d.]+( yrs shipping GenAI)', rf'\g<1>{years}\g<2>', t)
+        t = re.sub(r'(>)[\d.]+(</tspan> \+ <tspan[^>]*>&#34;yrs&#34;)', rf'\g<1>{years}\g<2>', t)
+        if t != o:
+            open(bp, "w", encoding="utf-8").write(t)
+            print(f"{bf} years -> {years}")
+
+
+# ----------------------------------------------------------------------------
+# 5. Main
+# ----------------------------------------------------------------------------
+import re  # noqa: E402  (used by update_readme_projects)
+
 DEMO = {
     "name": "Himanshu Verma", "login": "himanshuverma0912",
     "stars": 128, "commits": 1204, "reviews": 22, "prs": 96, "issues": 54,
@@ -296,6 +413,14 @@ DEMO = {
                   "TypeScript": 120000, "Shell": 80000, "SQL": 40000},
     "lang_color": {"Python": "#3572A5", "Jupyter Notebook": "#DA5B0B",
                    "TypeScript": "#3178c6", "Shell": "#89e051", "SQL": "#e38c00"},
+    "projects": [
+        {"name": "Real-Time LLM Cost Estimation Engine",
+         "desc": "Web app comparing real-time inference pricing across 500+ LLMs",
+         "url": "https://github.com/himanshuverma0912", "stack": "Next.js · TypeScript"},
+        {"name": "Agentic Equity Research Command Center",
+         "desc": "Multi-agent financial workstation; vectorless PageIndex + MCP over SQL & docs",
+         "url": "https://github.com/himanshuverma0912", "stack": "Python · LangGraph · Gemini"},
+    ],
 }
 
 
@@ -324,6 +449,12 @@ def main():
         with open(path, "w", encoding="utf-8") as f:
             f.write(content)
         print("wrote", path)
+
+    # refresh the featured-projects table in the README (between markers)
+    update_readme_projects(os.path.join(outdir, "README.md"), s.get("projects", []))
+
+    # refresh auto-computed years of experience everywhere
+    update_years(outdir, years_of_experience())
 
 
 if __name__ == "__main__":

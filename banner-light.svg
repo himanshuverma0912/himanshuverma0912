@@ -71,35 +71,25 @@
   </g>
 
   <g transform="translate(66,250)" class="mono" font-size="30" font-weight="600">
-    <text class="role" style="animation-delay:0s"    fill="#0891b2">&#60; ML Engineer /&#62;</text>
-    <text class="role" style="animation-delay:2.4s"  fill="#2563eb">&#60; GenAI Engineer /&#62;</text>
-    <text class="role" style="animation-delay:4.8s"  fill="#7c3aed">&#60; LLM Developer /&#62;</text>
-    <text class="role" style="animation-delay:7.2s"  fill="#0ea5e9">&#60; MLOps Engineer /&#62;</text>
-    <text class="role" style="animation-delay:9.6s"  fill="#6366f1">&#60; Applied AI /&#62;</text>
+    <text class="role" style="animation-delay:0s"    fill="#0891b2">&#60; Senior GenAI Engineer /&#62;</text>
+    <text class="role" style="animation-delay:2.4s"  fill="#2563eb">&#60; LLM &#38; NLP Engineer /&#62;</text>
+    <text class="role" style="animation-delay:4.8s"  fill="#7c3aed">&#60; Agentic AI &#183; A2A /&#62;</text>
+    <text class="role" style="animation-delay:7.2s"  fill="#0ea5e9">&#60; RAG &#183; LLMOps /&#62;</text>
+    <text class="role" style="animation-delay:9.6s"  fill="#6366f1">&#60; MLOps &#183; AIOps /&#62;</text>
   </g>
 
   <g class="fade" style="animation-delay:1s" transform="translate(64,290)">
     <rect x="0" y="0" width="560" height="52" rx="10" fill="#eef4ff" stroke="#bcd2f0"/>
-    <text class="mono" x="18" y="33" font-size="19" fill="#334155">&#34; Turning prompts, data &#38; models into products. &#34;</text>
+    <text class="mono" x="18" y="33" font-size="19" fill="#334155">&#34; Architecting agentic AI &#38; LLM systems at scale. &#34;</text>
   </g>
 
-  <g transform="translate(64,375)" font-size="17" class="mono" font-weight="600">
-    <g class="fade" style="animation-delay:1.2s"><rect x="0"   width="92"  height="34" rx="17" fill="#e6f6fb" stroke="#0891b2"/><text x="46"  y="23" text-anchor="middle" fill="#0e7490">Python</text></g>
-    <g class="fade" style="animation-delay:1.3s"><rect x="104" width="98"  height="34" rx="17" fill="#e6f6fb" stroke="#0ea5e9"/><text x="153" y="23" text-anchor="middle" fill="#0e7490">PyTorch</text></g>
-    <g class="fade" style="animation-delay:1.4s"><rect x="214" width="118" height="34" rx="17" fill="#eaf1ff" stroke="#2563eb"/><text x="273" y="23" text-anchor="middle" fill="#1d4ed8">LangChain</text></g>
-    <g class="fade" style="animation-delay:1.5s"><rect x="344" width="120" height="34" rx="17" fill="#efeaff" stroke="#6366f1"/><text x="404" y="23" text-anchor="middle" fill="#4f46e5">LlamaIndex</text></g>
-    <g class="fade" style="animation-delay:1.6s"><rect x="476" width="66"  height="34" rx="17" fill="#efeaff" stroke="#7c3aed"/><text x="509" y="23" text-anchor="middle" fill="#6d28d9">RAG</text></g>
-  </g>
-  <g transform="translate(64,420)" font-size="17" class="mono" font-weight="600">
-    <g class="fade" style="animation-delay:1.7s"><rect x="0"   width="150" height="34" rx="17" fill="#e6f6fb" stroke="#0891b2"/><text x="75"  y="23" text-anchor="middle" fill="#0e7490">Hugging Face</text></g>
-    <g class="fade" style="animation-delay:1.8s"><rect x="162" width="176" height="34" rx="17" fill="#eaf1ff" stroke="#0ea5e9"/><text x="250" y="23" text-anchor="middle" fill="#1d4ed8">OpenAI / Anthropic</text></g>
-    <g class="fade" style="animation-delay:1.9s"><rect x="350" width="150" height="34" rx="17" fill="#efeaff" stroke="#6366f1"/><text x="425" y="23" text-anchor="middle" fill="#4f46e5">Vector DBs</text></g>
-  </g>
+  <g transform="translate(64,375)" font-size="17" class="mono" font-weight="600"><g class="fade" style="animation-delay:1.2s"><rect x="0" width="92" height="34" rx="17" fill="#eaf1ff" stroke="#0891b2"/><text x="46" y="23" text-anchor="middle" fill="#0e7490">Python</text></g><g class="fade" style="animation-delay:1.3s"><rect x="104" width="98" height="34" rx="17" fill="#eaf1ff" stroke="#0ea5e9"/><text x="153" y="23" text-anchor="middle" fill="#1d4ed8">PyTorch</text></g><g class="fade" style="animation-delay:1.4s"><rect x="214" width="150" height="34" rx="17" fill="#eaf1ff" stroke="#2563eb"/><text x="289" y="23" text-anchor="middle" fill="#1d4ed8">Transformers</text></g><g class="fade" style="animation-delay:1.5s"><rect x="376" width="118" height="34" rx="17" fill="#eaf1ff" stroke="#6366f1"/><text x="435" y="23" text-anchor="middle" fill="#4f46e5">LangGraph</text></g><g class="fade" style="animation-delay:1.6s"><rect x="506" width="60" height="34" rx="17" fill="#eaf1ff" stroke="#7c3aed"/><text x="536" y="23" text-anchor="middle" fill="#6d28d9">RAG</text></g></g>
+  <g transform="translate(64,420)" font-size="17" class="mono" font-weight="600"><g class="fade" style="animation-delay:1.7s"><rect x="0" width="120" height="34" rx="17" fill="#eaf1ff" stroke="#0891b2"/><text x="60" y="23" text-anchor="middle" fill="#0e7490">LlamaIndex</text></g><g class="fade" style="animation-delay:1.8s"><rect x="132" width="64" height="34" rx="17" fill="#eaf1ff" stroke="#0ea5e9"/><text x="164" y="23" text-anchor="middle" fill="#1d4ed8">MCP</text></g><g class="fade" style="animation-delay:1.9s"><rect x="208" width="176" height="34" rx="17" fill="#eaf1ff" stroke="#2563eb"/><text x="296" y="23" text-anchor="middle" fill="#1d4ed8">NeMo Guardrails</text></g><g class="fade" style="animation-delay:2.0s"><rect x="396" width="130" height="34" rx="17" fill="#eaf1ff" stroke="#6366f1"/><text x="461" y="23" text-anchor="middle" fill="#4f46e5">Vector DBs</text></g></g>
 
   <g transform="translate(64,500)" font-size="18" class="mono">
-    <text class="fade" style="animation-delay:2s"   x="0" y="0"  fill="#475569">&#8226; Building RAG systems, agents &#38; LLM pipelines</text>
-    <text class="fade" style="animation-delay:2.1s" x="0" y="30" fill="#475569">&#8226; From notebooks to production &#8212; MLOps end to end</text>
-    <text class="fade" style="animation-delay:2.2s" x="0" y="60" fill="#475569">&#8226; Always fine-tuning, always shipping</text>
+    <text class="fade" style="animation-delay:2s"   x="0" y="0"  fill="#475569">&#8226; 6.6 yrs shipping GenAI &#8212; LLM, NLP &#38; Agentic AI</text>
+    <text class="fade" style="animation-delay:2.1s" x="0" y="30" fill="#475569">&#8226; Senior GenAI Engineer @ HDFC &#183; ex-IQVIA, Samsung</text>
+    <text class="fade" style="animation-delay:2.2s" x="0" y="60" fill="#475569">&#8226; RAG, LLMOps &#38; MLOps &#8212; fine-tune to production</text>
   </g>
   <g transform="translate(64,600)" class="fade" style="animation-delay:2.3s">
     <text class="mono" x="0" y="0" font-size="15" fill="#64748b">experience</text>
@@ -109,13 +99,7 @@
     </rect>
   </g>
 
-  <g transform="translate(600,620)" class="fade" style="animation-delay:1.4s">
-    <rect x="0" y="0" width="360" height="96" rx="12" fill="url(#cardGradL)" stroke="#bcd2f0"/>
-    <circle cx="16" cy="16" r="4" fill="#ff5f56"/><circle cx="30" cy="16" r="4" fill="#ffbd2e"/><circle cx="44" cy="16" r="4" fill="#27c93f"/>
-    <text class="mono" x="14" y="46" font-size="14" fill="#0891b2">const <tspan fill="#1e293b">build</tspan> = () =&#62; {</text>
-    <text class="mono" x="30" y="66" font-size="14" fill="#7c3aed">return <tspan fill="#0891b2">&#34;ship AI&#34;</tspan>;</text>
-    <text class="mono" x="14" y="86" font-size="14" fill="#1e293b">}<tspan class="cursor" fill="#0891b2">_</tspan></text>
-  </g>
+  <g transform="translate(600,548)" class="fade" style="animation-delay:1.4s"><rect x="0" y="0" width="300" height="168" rx="12" fill="url(#cardGradL)" stroke="#bcd2f0"/><circle cx="16" cy="16" r="4" fill="#ff5f56"/><circle cx="30" cy="16" r="4" fill="#ffbd2e"/><circle cx="44" cy="16" r="4" fill="#27c93f"/><text class="mono" x="14" y="44" font-size="13" fill="#0891b2">const <tspan fill="#1e293b">himanshu</tspan> = {</text><text class="mono" x="26" y="64" font-size="13" fill="#0891b2">role<tspan fill="#64748b">:</tspan> <tspan fill="#0f766e">&#34;Sr. GenAI Engineer&#34;</tspan>,</text><text class="mono" x="26" y="84" font-size="13" fill="#0891b2">focus<tspan fill="#64748b">:</tspan> [<tspan fill="#6d28d9">&#34;A2A&#34;</tspan>, <tspan fill="#6d28d9">&#34;MCP&#34;</tspan>, <tspan fill="#6d28d9">&#34;RAG&#34;</tspan>],</text><text class="mono" x="26" y="104" font-size="13" fill="#0891b2">certs<tspan fill="#64748b">:</tspan> <tspan fill="#0f766e">&#34;Azure AI &#215;3&#34;</tspan>,</text><text class="mono" x="26" y="124" font-size="13" fill="#0891b2">exp<tspan fill="#64748b">:</tspan> <tspan fill="#b45309">6.6</tspan> + <tspan fill="#0f766e">&#34;yrs&#34;</tspan>,</text><text class="mono" x="26" y="144" font-size="13" fill="#0891b2">status<tspan fill="#64748b">:</tspan> <tspan fill="#0f766e">&#34;shipping&#34;</tspan><tspan class="cursor" fill="#0891b2">_</tspan></text><text class="mono" x="14" y="162" font-size="13" fill="#1e293b">}</text></g>
 
   <g transform="translate(600,214)" filter="url(#glowL)" style="animation:flick 4s infinite">
     <rect x="0" y="0" width="290" height="54" rx="12" fill="none" stroke="#0891b2" stroke-width="2"/>

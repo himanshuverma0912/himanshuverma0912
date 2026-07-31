@@ -1,8 +1,8 @@
 <!--
   =========================================================================
   Himanshu Verma · Animated GitHub Profile README
-  Ready to upload. Username (himanshuverma0912), name, and avatar are set.
-  Cache tip: bump ?v=1 -> ?v=2 on an image after you edit its SVG.
+  Tailored from resume. Stats + featured projects auto-refresh daily.
+  Cache tip: bump ?v=3 -> ?v=4 on an image after you edit its SVG.
   =========================================================================
 -->
 
@@ -10,17 +10,21 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=2">
-  <img alt="Himanshu Verma — ML & GenAI Engineer" src="banner.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
+  <img alt="Himanshu Verma — Senior GenAI Engineer" src="banner.svg?v=4" width="100%">
 </picture>
 
 <br/>
 
-<!-- profile views + follow -->
+<!-- profile views · follow · status -->
 <img src="https://komarev.com/ghpvc/?username=himanshuverma0912&label=Profile%20Views&color=22d3ee&style=flat" alt="views"/>
 &nbsp;
 <a href="https://github.com/himanshuverma0912?tab=followers"><img src="https://img.shields.io/github/followers/himanshuverma0912?label=Follow&style=social" alt="followers"/></a>
+&nbsp;
+<img src="https://img.shields.io/badge/Experience-6.6%2B%20years-22d3ee?style=flat" alt="experience"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20to-GenAI%20roles-8b5cf6?style=flat" alt="open to work"/>
 
 </div>
 
@@ -31,10 +35,27 @@
 
 ### `whoami`
 
-Machine Learning &amp; GenAI Engineer — I build **RAG systems, LLM-powered agents, and production ML pipelines**.
-From messy notebooks to shipped products: data, models, evals, and the MLOps glue in between.
+**Senior GenAI Engineer** with **6.6+ years** building **LLM, NLP &amp; Agentic AI** systems in production.
+Currently architecting **Agent-to-Agent (A2A)** frameworks with **LangGraph + MCP** at **HDFC**.
+I turn complex, messy data into autonomous, reliable AI — **RAG**, **LLMOps** (gateways · guardrails · evals) and **MLOps**, end to end.
 
 </div>
+
+<br/>
+
+<!-- ======================= EXPERIENCE ======================= -->
+<div align="center">
+
+### `experience`
+
+</div>
+
+| Role | Company | When | Impact |
+|:--|:--|:--|:--|
+| **Senior GenAI Engineer** | HDFC · Bengaluru | Jun 2025 – Present | Built an autonomous **A2A** credit-card analysis framework (**LangGraph + MCP**) → **+25%** analyzer capability; NLP statement summarization → **+40%** extraction efficiency; migrated Airflow orchestration to GCP Cloud Composer |
+| **Senior GenAI Engineer** — IQVIA | Ascendion · Bengaluru | Jul 2024 – Apr 2025 | Designed &amp; fine-tuned generative-AI **OCR** models → **+15%** accuracy, **−20%** error rate; scalable Python training &amp; deployment |
+| **Software / NLP Engineer** — Samsung Bixby | Tech Mahindra · Bengaluru | Feb 2022 – Jul 2024 | Built Streaming OTT &amp; Launcher modules for Bixby; lifted accuracy **75% → 97%**; fine-tuned &amp; quantized LLMs for on-device tasks |
+| **Assistant Software Engineer** — Tata Sky | TCS · Bengaluru | Jan 2020 – Jan 2022 | Java services for channel pricing &amp; pack-management automation |
 
 <br/>
 
@@ -43,11 +64,11 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
   <table>
     <tr>
       <td width="360" align="center">
-        <img src="lanyard.svg?v=2" alt="ID badge" width="330"/>
+        <img src="lanyard.svg?v=4" alt="ID badge" width="330"/>
       </td>
       <td align="center">
-        <img src="stats.svg?v=2"  alt="GitHub stats" width="470"/><br/>
-        <img src="langs.svg?v=2"  alt="Top languages" width="470"/>
+        <img src="stats.svg?v=4"  alt="GitHub stats" width="470"/><br/>
+        <img src="langs.svg?v=4"  alt="Top languages" width="470"/>
       </td>
     </tr>
   </table>
@@ -57,7 +78,7 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
 
 <!-- ======================= TROPHIES ======================= -->
 <div align="center">
-  <img src="trophies.svg?v=2" alt="Trophies" width="900"/>
+  <img src="trophies.svg?v=4" alt="Trophies" width="900"/>
 </div>
 
 <br/>
@@ -67,16 +88,48 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
 
 ### `tech stack`
 
+**Languages**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**GenAI · LLM · Agents**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-6E4AFF?style=for-the-badge&logo=data&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![NeMo Guardrails](https://img.shields.io/badge/NeMo%20Guardrails-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG%20%2F%20Vectorless-22d3ee?style=for-the-badge)
+
+**ML · Deep Learning · NLP**
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
+
+**Data · Vector Stores**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+**Cloud · MLOps · DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 
 </div>
 
@@ -87,12 +140,31 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
 
 ### `featured projects`
 
+</div>
+
+<!-- PROJECTS:START -->
 | 🚀 Project | Description | Stack |
 |:--|:--|:--|
-| **[rag-assistant](https://github.com/himanshuverma0912)** | Production RAG chatbot over private docs with citations &amp; evals | LangChain · FAISS · FastAPI |
-| **[agent-workbench](https://github.com/himanshuverma0912)** | Multi-tool LLM agent framework with tracing | LangGraph · OpenAI · Redis |
-| **[llm-finetune](https://github.com/himanshuverma0912)** | LoRA / QLoRA fine-tuning pipeline for domain models | PyTorch · PEFT · HF |
-| **[ml-serve](https://github.com/himanshuverma0912)** | Model serving + monitoring template | Docker · MLflow · Prometheus |
+| **[Real-Time LLM Cost Estimation Engine](https://github.com/himanshuverma0912)** | Web app that calculates &amp; compares real-time inference pricing across 500+ LLMs | Next.js · TypeScript |
+| **[Agentic Equity Research Command Center](https://github.com/himanshuverma0912)** | Secure multi-agent financial workstation; vectorless PageIndex + MCP over SQL & docs | Python · LangGraph · Gemini |
+<!-- PROJECTS:END -->
+
+<div align="center">
+<sub><i>↑ auto-updates daily from my GitHub — pin repos to feature them here</i></sub>
+</div>
+
+<br/>
+
+<!-- ======================= CERTIFICATIONS ======================= -->
+<div align="center">
+
+### `certifications`
+
+![Azure Data Scientist Associate](https://img.shields.io/badge/Azure-Data%20Scientist%20Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure AI Engineer Associate](https://img.shields.io/badge/Azure-AI%20Engineer%20Associate-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure AI Fundamentals](https://img.shields.io/badge/Azure-AI%20Fundamentals-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+<sub>Microsoft Certified · 2024</sub>
 
 </div>
 
@@ -120,12 +192,11 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
 <!-- ======================= CONNECT ======================= -->
 <div align="center">
 
-### `connect`
+### `let's connect`
 
-<a href="mailto:commonwork54@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://linkedin.com/in/himanshuverma0912"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:verma.himanshu0912@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/him0912"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/himanshuverma0912"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://huggingface.co/himanshuverma0912"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black"/></a>
 
 <br/><br/>
 
