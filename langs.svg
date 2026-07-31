@@ -14,20 +14,20 @@
 <text x="26" y="40" font-size="20" font-weight="700" fill="#7dd3fc">Most Used Languages</text>
 <line x1="26" y1="52" x2="454" y2="52" stroke="#1f4b7a"/>
 <g transform="translate(26,74)" class="mono" font-size="14">
-  <g class="lbl" style="animation-delay:0.15s"><text x="0" y="0" fill="#cfe3ff">Python</text><text x="428" y="0" text-anchor="end" fill="#9fb6d6">58%</text></g>
+  <g class="lbl" style="animation-delay:0.15s"><text x="0" y="0" fill="#cfe3ff">Python</text><text x="428" y="0" text-anchor="end" fill="#9fb6d6">88%</text></g>
   <rect x="0" y="8" width="428" height="10" rx="5" fill="#10233d"/>
-  <rect class="bar" x="0" y="8" width="248" height="10" rx="5" fill="#3572A5" style="animation-delay:0.15s"/>
-  <g class="lbl" style="animation-delay:0.30s"><text x="0" y="36" fill="#cfe3ff">Jupyter Notebook</text><text x="428" y="36" text-anchor="end" fill="#9fb6d6">18%</text></g>
+  <rect class="bar" x="0" y="8" width="377" height="10" rx="5" fill="#3572A5" style="animation-delay:0.15s"/>
+  <g class="lbl" style="animation-delay:0.30s"><text x="0" y="36" fill="#cfe3ff">C</text><text x="428" y="36" text-anchor="end" fill="#9fb6d6">4%</text></g>
   <rect x="0" y="44" width="428" height="10" rx="5" fill="#10233d"/>
-  <rect class="bar" x="0" y="44" width="77" height="10" rx="5" fill="#DA5B0B" style="animation-delay:0.30s"/>
-  <g class="lbl" style="animation-delay:0.45s"><text x="0" y="72" fill="#cfe3ff">TypeScript</text><text x="428" y="72" text-anchor="end" fill="#9fb6d6">12%</text></g>
+  <rect class="bar" x="0" y="44" width="18" height="10" rx="5" fill="#555555" style="animation-delay:0.30s"/>
+  <g class="lbl" style="animation-delay:0.45s"><text x="0" y="72" fill="#cfe3ff">C++</text><text x="428" y="72" text-anchor="end" fill="#9fb6d6">4%</text></g>
   <rect x="0" y="80" width="428" height="10" rx="5" fill="#10233d"/>
-  <rect class="bar" x="0" y="80" width="51" height="10" rx="5" fill="#3178c6" style="animation-delay:0.45s"/>
-  <g class="lbl" style="animation-delay:0.60s"><text x="0" y="108" fill="#cfe3ff">Shell</text><text x="428" y="108" text-anchor="end" fill="#9fb6d6">8%</text></g>
+  <rect class="bar" x="0" y="80" width="18" height="10" rx="5" fill="#f34b7d" style="animation-delay:0.45s"/>
+  <g class="lbl" style="animation-delay:0.60s"><text x="0" y="108" fill="#cfe3ff">Cython</text><text x="428" y="108" text-anchor="end" fill="#9fb6d6">2%</text></g>
   <rect x="0" y="116" width="428" height="10" rx="5" fill="#10233d"/>
-  <rect class="bar" x="0" y="116" width="34" height="10" rx="5" fill="#89e051" style="animation-delay:0.60s"/>
-  <g class="lbl" style="animation-delay:0.75s"><text x="0" y="144" fill="#cfe3ff">SQL</text><text x="428" y="144" text-anchor="end" fill="#9fb6d6">4%</text></g>
+  <rect class="bar" x="0" y="116" width="10" height="10" rx="5" fill="#fedf5b" style="animation-delay:0.60s"/>
+  <g class="lbl" style="animation-delay:0.75s"><text x="0" y="144" fill="#cfe3ff">Tcl</text><text x="428" y="144" text-anchor="end" fill="#9fb6d6">1%</text></g>
   <rect x="0" y="152" width="428" height="10" rx="5" fill="#10233d"/>
-  <rect class="bar" x="0" y="152" width="17" height="10" rx="5" fill="#e38c00" style="animation-delay:0.75s"/>
+  <rect class="bar" x="0" y="152" width="6" height="10" rx="5" fill="#e4cc98" style="animation-delay:0.75s"/>
   </g>
 </svg>
