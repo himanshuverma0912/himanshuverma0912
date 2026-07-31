@@ -250,12 +250,12 @@ def build_trophies_svg(s):
         x = 75 + i * 150
         d = 0.1 + i * 0.12
         body += (
-            f'<g class="cell" style="animation-delay:{d:.2f}s" transform="translate({x},60)">'
+            f'<g transform="translate({x},60)"><g class="cell" style="animation-delay:{d:.2f}s">'
             f'<path d="M-18 -22 h36 v10 a18 18 0 0 1 -36 0 z" fill="url(#cup)"/>'
             f'<rect x="-6" y="-4" width="12" height="10" fill="#c47f16"/>'
             f'<rect x="-14" y="6" width="28" height="6" rx="2" fill="#c47f16"/>'
             f'<text class="rk" y="34" text-anchor="middle" font-size="15" font-weight="800" fill="#ffd76a">{grade}</text>'
-            f'<text y="52" text-anchor="middle" font-size="11" fill="#9fb6d6">{label}</text></g>\n    '
+            f'<text y="52" text-anchor="middle" font-size="11" fill="#9fb6d6">{label}</text></g></g>\n    '
         )
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
 <defs>

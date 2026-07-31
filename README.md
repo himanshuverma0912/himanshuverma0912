@@ -10,9 +10,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img alt="Himanshu Verma — ML & GenAI Engineer" src="banner.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=2">
+  <img alt="Himanshu Verma — ML & GenAI Engineer" src="banner.svg?v=2" width="100%">
 </picture>
 
 <br/>
@@ -43,11 +43,11 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
   <table>
     <tr>
       <td width="360" align="center">
-        <img src="lanyard.svg?v=1" alt="ID badge" width="330"/>
+        <img src="lanyard.svg?v=2" alt="ID badge" width="330"/>
       </td>
       <td align="center">
-        <img src="stats.svg?v=1"  alt="GitHub stats" width="470"/><br/>
-        <img src="langs.svg?v=1"  alt="Top languages" width="470"/>
+        <img src="stats.svg?v=2"  alt="GitHub stats" width="470"/><br/>
+        <img src="langs.svg?v=2"  alt="Top languages" width="470"/>
       </td>
     </tr>
   </table>
@@ -57,7 +57,7 @@ From messy notebooks to shipped products: data, models, evals, and the MLOps glu
 
 <!-- ======================= TROPHIES ======================= -->
 <div align="center">
-  <img src="trophies.svg?v=1" alt="Trophies" width="900"/>
+  <img src="trophies.svg?v=2" alt="Trophies" width="900"/>
 </div>
 
 <br/>

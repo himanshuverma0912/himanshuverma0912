@@ -38,11 +38,11 @@
   <style>
     text{fill:#1e293b}
     .mono{font-family:'SFMono-Regular','Consolas','Liberation Mono',Menlo,monospace}
-    .pop{opacity:0;transform:translateY(14px);animation:pop .5s ease forwards}
-    @keyframes pop{to{opacity:1;transform:translateY(0)}}
+    .pop{opacity:0;animation:pop .5s ease forwards}
+    @keyframes pop{to{opacity:1}}
     @keyframes blink{50%{opacity:0}}
     .cursor{animation:blink 1s step-end infinite}
-    @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fadeUp{from{opacity:0}to{opacity:1}}
     .fade{opacity:0;animation:fadeUp .6s ease forwards}
     @keyframes rolecycle{0%,18%{opacity:0;transform:translateY(8px)}4%,14%{opacity:1;transform:translateY(0)}}
     @keyframes flick{0%,92%,96%,100%{opacity:1}94%,98%{opacity:.35}}
@@ -67,7 +67,7 @@
   </g>
 
   <g transform="translate(64,190)">
-    <text font-size="74" font-weight="800" fill="url(#nameGradL)" letter-spacing="1"><tspan class="pop" style="animation-delay:0.20s">H</tspan><tspan class="pop" style="animation-delay:0.27s">I</tspan><tspan class="pop" style="animation-delay:0.34s">M</tspan><tspan class="pop" style="animation-delay:0.41s">A</tspan><tspan class="pop" style="animation-delay:0.48s">N</tspan><tspan class="pop" style="animation-delay:0.55s">S</tspan><tspan class="pop" style="animation-delay:0.62s">H</tspan><tspan class="pop" style="animation-delay:0.69s">U</tspan><tspan class="pop" style="animation-delay:0.76s">&#160;</tspan><tspan class="pop" style="animation-delay:0.83s">V</tspan><tspan class="pop" style="animation-delay:0.90s">E</tspan><tspan class="pop" style="animation-delay:0.97s">R</tspan><tspan class="pop" style="animation-delay:1.04s">M</tspan><tspan class="pop" style="animation-delay:1.11s">A</tspan></text>
+    <text font-size="60" font-weight="800" fill="url(#nameGradL)" letter-spacing="1"><tspan class="pop" style="animation-delay:0.20s">H</tspan><tspan class="pop" style="animation-delay:0.27s">I</tspan><tspan class="pop" style="animation-delay:0.34s">M</tspan><tspan class="pop" style="animation-delay:0.41s">A</tspan><tspan class="pop" style="animation-delay:0.48s">N</tspan><tspan class="pop" style="animation-delay:0.55s">S</tspan><tspan class="pop" style="animation-delay:0.62s">H</tspan><tspan class="pop" style="animation-delay:0.69s">U</tspan><tspan class="pop" style="animation-delay:0.76s">&#160;</tspan><tspan class="pop" style="animation-delay:0.83s">V</tspan><tspan class="pop" style="animation-delay:0.90s">E</tspan><tspan class="pop" style="animation-delay:0.97s">R</tspan><tspan class="pop" style="animation-delay:1.04s">M</tspan><tspan class="pop" style="animation-delay:1.11s">A</tspan></text>
   </g>
 
   <g transform="translate(66,250)" class="mono" font-size="30" font-weight="600">
@@ -117,7 +117,7 @@
     <text class="mono" x="14" y="86" font-size="14" fill="#1e293b">}<tspan class="cursor" fill="#0891b2">_</tspan></text>
   </g>
 
-  <g transform="translate(600,180)" filter="url(#glowL)" style="animation:flick 4s infinite">
+  <g transform="translate(600,214)" filter="url(#glowL)" style="animation:flick 4s infinite">
     <rect x="0" y="0" width="290" height="54" rx="12" fill="none" stroke="#0891b2" stroke-width="2"/>
     <text class="mono" x="145" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#0e7490">KEEP BUILDING &#8226; KEEP LEARNING</text>
   </g>

@@ -41,11 +41,11 @@
   <style>
     text{fill:#e6f0ff}
     .mono{font-family:'SFMono-Regular','Consolas','Liberation Mono',Menlo,monospace}
-    .pop{opacity:0;transform:translateY(14px);animation:pop .5s ease forwards}
-    @keyframes pop{to{opacity:1;transform:translateY(0)}}
+    .pop{opacity:0;animation:pop .5s ease forwards}
+    @keyframes pop{to{opacity:1}}
     @keyframes blink{50%{opacity:0}}
     .cursor{animation:blink 1s step-end infinite}
-    @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fadeUp{from{opacity:0}to{opacity:1}}
     .fade{opacity:0;animation:fadeUp .6s ease forwards}
     @keyframes typing{from{width:0}to{width:100%}}
     @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
@@ -79,7 +79,7 @@
 
   <!-- NAME -->
   <g transform="translate(64,190)" filter="url(#softGlow)">
-    <text font-size="74" font-weight="800" fill="url(#nameGrad)" letter-spacing="1"><tspan class="pop" style="animation-delay:0.20s">H</tspan><tspan class="pop" style="animation-delay:0.27s">I</tspan><tspan class="pop" style="animation-delay:0.34s">M</tspan><tspan class="pop" style="animation-delay:0.41s">A</tspan><tspan class="pop" style="animation-delay:0.48s">N</tspan><tspan class="pop" style="animation-delay:0.55s">S</tspan><tspan class="pop" style="animation-delay:0.62s">H</tspan><tspan class="pop" style="animation-delay:0.69s">U</tspan><tspan class="pop" style="animation-delay:0.76s">&#160;</tspan><tspan class="pop" style="animation-delay:0.83s">V</tspan><tspan class="pop" style="animation-delay:0.90s">E</tspan><tspan class="pop" style="animation-delay:0.97s">R</tspan><tspan class="pop" style="animation-delay:1.04s">M</tspan><tspan class="pop" style="animation-delay:1.11s">A</tspan></text>
+    <text font-size="60" font-weight="800" fill="url(#nameGrad)" letter-spacing="1"><tspan class="pop" style="animation-delay:0.20s">H</tspan><tspan class="pop" style="animation-delay:0.27s">I</tspan><tspan class="pop" style="animation-delay:0.34s">M</tspan><tspan class="pop" style="animation-delay:0.41s">A</tspan><tspan class="pop" style="animation-delay:0.48s">N</tspan><tspan class="pop" style="animation-delay:0.55s">S</tspan><tspan class="pop" style="animation-delay:0.62s">H</tspan><tspan class="pop" style="animation-delay:0.69s">U</tspan><tspan class="pop" style="animation-delay:0.76s">&#160;</tspan><tspan class="pop" style="animation-delay:0.83s">V</tspan><tspan class="pop" style="animation-delay:0.90s">E</tspan><tspan class="pop" style="animation-delay:0.97s">R</tspan><tspan class="pop" style="animation-delay:1.04s">M</tspan><tspan class="pop" style="animation-delay:1.11s">A</tspan></text>
   </g>
 
   <!-- cycling roles -->
@@ -135,7 +135,7 @@
   </g>
 
   <!-- neon sign -->
-  <g transform="translate(600,180)" filter="url(#glow)" style="animation:flick 4s infinite">
+  <g transform="translate(600,214)" filter="url(#glow)" style="animation:flick 4s infinite">
     <rect x="0" y="0" width="290" height="54" rx="12" fill="none" stroke="#22d3ee" stroke-width="2"/>
     <text class="mono" x="145" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#7dd3fc">KEEP BUILDING &#8226; KEEP LEARNING</text>
   </g>
