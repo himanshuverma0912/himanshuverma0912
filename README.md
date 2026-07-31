@@ -1,108 +1,134 @@
-<h1 align="center">Hi 👋, I'm Himanshu Verma</h1>
-<h3 align="center">A passionate Software Engineer from India</h3>
+<!--
+  =========================================================================
+  Himanshu Verma · Animated GitHub Profile README
+  Ready to upload. Username (himanshuverma0912), name, and avatar are set.
+  Cache tip: bump ?v=1 -> ?v=2 on an image after you edit its SVG.
+  =========================================================================
+-->
 
-[![himanshuverma0912's GitHub | Stats](https://stats.quine.sh/himanshuverma0912/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=himanshuverma0912)
+<!-- ======================= ANIMATED BANNER ======================= -->
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=himanshuverma0912&label=Profile%20views&color=0e75b6&style=flat" alt="himanshuverma0912" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=himanshuverma0912" alt="himanshuverma0912" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
-- 🔭 I’m currently working on **Large Language Models**
-
-- 🌱 I’m currently learning **AI,ML,LLM,NLP**
-
-- 👨‍💻 All of my projects are available at [https://github.com/himanshuverma0912](https://github.com/himanshuverma0912)
-
-- 📝 I regularly write articles on [AI/ML/LLM/NLP](AI/ML/LLM/NLP)
-
-- 📫 How to reach me **verma.himanshu0912@gmail.com**
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/himanshu-verma-0912/](https://www.linkedin.com/in/himanshu-verma-0912/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/himanshu-verma-0912" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="himanshu-verma-0912" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/venom0912" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="venom0912" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<table>
-    <tr>
-        <td>CI/CD</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/github/github-original.svg" width="40" height="40"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>SysOps</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/linux/linux-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/unix/unix-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/ubuntu/ubuntu-plain.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/bash/bash-original.svg" width="40" height="40"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>Programming/Backend</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/java/java-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/spring/spring-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/python/python-original.svg" width="40" height="40"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>Monitoring & Observability</td>
-        <td>
-            <a href=""><img src="https://www.vectorlogo.zone/logos/sumologic/sumologic-icon.svg" width="40" height="40"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>Frontend Dev</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg" width="40" height="40"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>Databases/Datastores</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/mongodb/mongodb-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/mysql/mysql-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/oracle/oracle-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/postgresql/postgresql-original.svg" width="40" height="40"/></a>
-        </td>
-    </tr>
-    <tr>
-        <td>IDEs</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/vscode/vscode-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/pycharm/pycharm-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/intellij/intellij-original.svg" width="40" height="40"/></a>
-            <!-- <a href=""><img src="https://worldvectorlogo.com/download/sublime-text.svg"/></a> -->
-        </td>
-    </tr>
-    <tr>
-        <td>Others/Misc</td>
-        <td>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/gradle/gradle-plain.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/gitlab/gitlab-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/git/git-original.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40" height="40"/></a>
-            <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/tomcat/tomcat-original.svg" width="40" height="40"/></a>
-	    <a href=""><img src="https://github.com/devicons/devicon/blob/v2.13.0/icons/jupyter/jupyter-original.svg" width="40" height="40"/></a>
-            <!-- <a href=""><img src=""/></a> -->
-        </td>
-    </tr>
-</table>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Himanshu Verma — ML & GenAI Engineer" src="banner.svg?v=1" width="100%">
+</picture>
 
 <br/>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=himanshuverma0912&show_icons=true&locale=en&layout=compact" alt="himanshuverma0912" /></p>
+<!-- profile views + follow -->
+<img src="https://komarev.com/ghpvc/?username=himanshuverma0912&label=Profile%20Views&color=22d3ee&style=flat" alt="views"/>
+&nbsp;
+<a href="https://github.com/himanshuverma0912?tab=followers"><img src="https://img.shields.io/github/followers/himanshuverma0912?label=Follow&style=social" alt="followers"/></a>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=himanshuverma0912&show_icons=true&locale=en" alt="himanshuverma0912" /></p>
+</div>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=himanshuverma0912&" alt="himanshuverma0912" /></p>
+<br/>
 
+<!-- ======================= ABOUT ======================= -->
+<div align="center">
+
+### `whoami`
+
+Machine Learning &amp; GenAI Engineer — I build **RAG systems, LLM-powered agents, and production ML pipelines**.
+From messy notebooks to shipped products: data, models, evals, and the MLOps glue in between.
+
+</div>
+
+<br/>
+
+<!-- ======================= SWINGING ID BADGE + STATS ======================= -->
+<div align="center">
+  <table>
+    <tr>
+      <td width="360" align="center">
+        <img src="lanyard.svg?v=1" alt="ID badge" width="330"/>
+      </td>
+      <td align="center">
+        <img src="stats.svg?v=1"  alt="GitHub stats" width="470"/><br/>
+        <img src="langs.svg?v=1"  alt="Top languages" width="470"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<!-- ======================= TROPHIES ======================= -->
+<div align="center">
+  <img src="trophies.svg?v=1" alt="Trophies" width="900"/>
+</div>
+
+<br/>
+
+<!-- ======================= TECH STACK ======================= -->
+<div align="center">
+
+### `tech stack`
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+<br/>
+
+<!-- ======================= PROJECTS ======================= -->
+<div align="center">
+
+### `featured projects`
+
+| 🚀 Project | Description | Stack |
+|:--|:--|:--|
+| **[rag-assistant](https://github.com/himanshuverma0912)** | Production RAG chatbot over private docs with citations &amp; evals | LangChain · FAISS · FastAPI |
+| **[agent-workbench](https://github.com/himanshuverma0912)** | Multi-tool LLM agent framework with tracing | LangGraph · OpenAI · Redis |
+| **[llm-finetune](https://github.com/himanshuverma0912)** | LoRA / QLoRA fine-tuning pipeline for domain models | PyTorch · PEFT · HF |
+| **[ml-serve](https://github.com/himanshuverma0912)** | Model serving + monitoring template | Docker · MLflow · Prometheus |
+
+</div>
+
+<br/>
+
+<!-- ======================= CONTRIBUTION SNAKE ======================= -->
+<div align="center">
+
+### `contribution graph`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/himanshuverma0912/himanshuverma0912/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshuverma0912/himanshuverma0912/output/github-snake.svg">
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/himanshuverma0912/himanshuverma0912/output/github-snake.svg">
+</picture>
+
+<br/><br/>
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=himanshuverma0912&theme=react-dark&bg_color=060b18&color=22d3ee&line=8b5cf6&point=ffffff&hide_border=true&area=true)
+
+</div>
+
+<br/>
+
+<!-- ======================= CONNECT ======================= -->
+<div align="center">
+
+### `connect`
+
+<a href="mailto:commonwork54@gmail.com"><img src="https://img.shields.io/badge/Email-22d3ee?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://linkedin.com/in/himanshuverma0912"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/himanshuverma0912"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://huggingface.co/himanshuverma0912"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black"/></a>
+
+<br/><br/>
+
+<sub><i>Keep building · Keep learning</i></sub>
+
+</div>
