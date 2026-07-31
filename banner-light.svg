@@ -79,8 +79,8 @@
   </g>
 
   <g class="fade" style="animation-delay:1s" transform="translate(64,290)">
-    <rect x="0" y="0" width="560" height="52" rx="10" fill="#eef4ff" stroke="#bcd2f0"/>
-    <text class="mono" x="18" y="33" font-size="19" fill="#334155">&#34; Architecting agentic AI &#38; LLM systems at scale. &#34;</text>
+    <rect x="0" y="0" width="600" height="52" rx="10" fill="#eef4ff" stroke="#bcd2f0"/>
+    <text class="mono" x="22" y="33" font-size="18" fill="#334155">&#34; Architecting agentic AI &#38; LLM systems at scale. &#34;</text>
   </g>
 
   <g transform="translate(64,375)" font-size="17" class="mono" font-weight="600"><g class="fade" style="animation-delay:1.2s"><rect x="0" width="92" height="34" rx="17" fill="#eaf1ff" stroke="#0891b2"/><text x="46" y="23" text-anchor="middle" fill="#0e7490">Python</text></g><g class="fade" style="animation-delay:1.3s"><rect x="104" width="98" height="34" rx="17" fill="#eaf1ff" stroke="#0ea5e9"/><text x="153" y="23" text-anchor="middle" fill="#1d4ed8">PyTorch</text></g><g class="fade" style="animation-delay:1.4s"><rect x="214" width="150" height="34" rx="17" fill="#eaf1ff" stroke="#2563eb"/><text x="289" y="23" text-anchor="middle" fill="#1d4ed8">Transformers</text></g><g class="fade" style="animation-delay:1.5s"><rect x="376" width="118" height="34" rx="17" fill="#eaf1ff" stroke="#6366f1"/><text x="435" y="23" text-anchor="middle" fill="#4f46e5">LangGraph</text></g><g class="fade" style="animation-delay:1.6s"><rect x="506" width="60" height="34" rx="17" fill="#eaf1ff" stroke="#7c3aed"/><text x="536" y="23" text-anchor="middle" fill="#6d28d9">RAG</text></g></g>

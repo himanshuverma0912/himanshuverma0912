@@ -10,9 +10,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=4">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
-  <img alt="Himanshu Verma — Senior GenAI Engineer" src="banner.svg?v=4" width="100%">
+  <source media="(prefers-color-scheme: dark)"  srcset="banner.svg?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=5">
+  <img alt="Himanshu Verma — Senior GenAI Engineer" src="banner.svg?v=5" width="100%">
 </picture>
 
 <br/>
@@ -138,12 +138,8 @@
 <!-- PROJECTS:START -->
 | 🚀 Project | Description | Stack |
 |:--|:--|:--|
-| **[himanshuverma0912](https://github.com/himanshuverma0912/himanshuverma0912)** | — | Python |
-| **[random_codes](https://github.com/himanshuverma0912/random_codes)** | — | Python |
-| **[ModelCostCalculator](https://github.com/himanshuverma0912/ModelCostCalculator)** | — | TypeScript |
-| **[GenAI-Equity-Research-Command-Center](https://github.com/himanshuverma0912/GenAI-Equity-Research-Command-Center)** | An enterprise-grade, agentic workstation designed to automate deep-dive equity research. | Python |
-| **[Multi-agent-systems](https://github.com/himanshuverma0912/Multi-agent-systems)** | — | — |
-| **[Gemini_Projects](https://github.com/himanshuverma0912/Gemini_Projects)** | This repository will be containing all the projects powered by Google Gemini | Python |
+| **[Real-Time LLM Cost Estimation Engine](https://github.com/himanshuverma0912)** | Web app that calculates &amp; compares real-time inference pricing across 500+ LLMs | Next.js · TypeScript |
+| **[Agentic Equity Research Command Center](https://github.com/himanshuverma0912)** | Secure multi-agent financial workstation; vectorless PageIndex + MCP over SQL & docs | Python · LangGraph · Gemini |
 <!-- PROJECTS:END -->
 
 <div align="center">
