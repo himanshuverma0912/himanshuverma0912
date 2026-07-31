@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+<defs>
+  <linearGradient id="eBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1830"/><stop offset="1" stop-color="#071120"/></linearGradient>
+  <linearGradient id="eLine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <radialGradient id="dot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#22d3ee"/></radialGradient>
+  <style>
+    text{font-family:'Segoe UI',Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,monospace}
+    @keyframes fadein{from{opacity:0}to{opacity:1}}
+    .item{opacity:0;animation:fadein .6s ease forwards}
+    @keyframes dash{from{stroke-dashoffset:470}to{stroke-dashoffset:0}}
+    .tl{stroke-dasharray:470;stroke-dashoffset:470;animation:dash 1.6s ease forwards}
+    @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+    .nd{animation:pulse 2.6s ease-in-out infinite}
+  </style>
+</defs>
+<rect x="1" y="1" width="898" height="558" rx="18" fill="url(#eBg)" stroke="#1f4b7a"/>
+
+<!-- timeline spine -->
+<line class="tl" x1="70" y1="55" x2="70" y2="525" stroke="url(#eLine)" stroke-width="3"/>
+
+<!-- ENTRY 1 : HDFC -->
+<g class="item" style="animation-delay:.2s">
+  <circle class="nd" cx="70" cy="70" r="8" fill="url(#dot)"/><circle cx="70" cy="70" r="8" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="6"/>
+  <text class="mono" x="100" y="62" font-size="13" fill="#7dd3fc">Jun 2025 — Present</text>
+  <text x="100" y="88" font-size="21" font-weight="800" fill="#e6f0ff">Senior GenAI Engineer</text>
+  <text x="100" y="110" font-size="14" font-weight="600" fill="#a78bfa">HDFC · Bengaluru</text>
+  <text x="100" y="133" font-size="13.5" fill="#9fb6d6">▸ Autonomous <tspan fill="#cfe3ff">A2A</tspan> credit-card analysis (LangGraph + MCP) → <tspan fill="#ffd76a">+25%</tspan> analyzer</text>
+  <text x="100" y="153" font-size="13.5" fill="#9fb6d6">▸ NLP statement summarization → <tspan fill="#ffd76a">+40%</tspan> extraction · Airflow → GCP Cloud Composer</text>
+</g>
+
+<!-- ENTRY 2 : Ascendion / IQVIA -->
+<g class="item" style="animation-delay:.5s">
+  <circle class="nd" cx="70" cy="212" r="8" fill="url(#dot)"/><circle cx="70" cy="212" r="8" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="6"/>
+  <text class="mono" x="100" y="204" font-size="13" fill="#7dd3fc">Jul 2024 — Apr 2025</text>
+  <text x="100" y="230" font-size="21" font-weight="800" fill="#e6f0ff">Senior GenAI Engineer <tspan font-size="15" fill="#9fb6d6">— IQVIA</tspan></text>
+  <text x="100" y="252" font-size="14" font-weight="600" fill="#a78bfa">Ascendion · Bengaluru</text>
+  <text x="100" y="275" font-size="13.5" fill="#9fb6d6">▸ Designed &amp; fine-tuned generative-AI <tspan fill="#cfe3ff">OCR</tspan> models → <tspan fill="#ffd76a">+15%</tspan> accuracy, <tspan fill="#ffd76a">−20%</tspan> errors</text>
+  <text x="100" y="295" font-size="13.5" fill="#9fb6d6">▸ Scalable Python preprocessing, training &amp; deployment</text>
+</g>
+
+<!-- ENTRY 3 : Tech Mahindra / Bixby -->
+<g class="item" style="animation-delay:.8s">
+  <circle class="nd" cx="70" cy="354" r="8" fill="url(#dot)"/><circle cx="70" cy="354" r="8" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="6"/>
+  <text class="mono" x="100" y="346" font-size="13" fill="#7dd3fc">Feb 2022 — Jul 2024</text>
+  <text x="100" y="372" font-size="21" font-weight="800" fill="#e6f0ff">Software / NLP Engineer <tspan font-size="15" fill="#9fb6d6">— Samsung Bixby</tspan></text>
+  <text x="100" y="394" font-size="14" font-weight="600" fill="#a78bfa">Tech Mahindra · Bengaluru</text>
+  <text x="100" y="417" font-size="13.5" fill="#9fb6d6">▸ Built Bixby Streaming OTT &amp; Launcher modules; accuracy <tspan fill="#ffd76a">75% → 97%</tspan></text>
+  <text x="100" y="437" font-size="13.5" fill="#9fb6d6">▸ Fine-tuned &amp; quantized <tspan fill="#cfe3ff">LLMs</tspan> for on-device tasks</text>
+</g>
+
+<!-- ENTRY 4 : TCS / Tata Sky -->
+<g class="item" style="animation-delay:1.1s">
+  <circle class="nd" cx="70" cy="496" r="8" fill="url(#dot)"/><circle cx="70" cy="496" r="8" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="6"/>
+  <text class="mono" x="100" y="488" font-size="13" fill="#7dd3fc">Jan 2020 — Jan 2022</text>
+  <text x="100" y="514" font-size="21" font-weight="800" fill="#e6f0ff">Assistant Software Engineer <tspan font-size="15" fill="#9fb6d6">— Tata Sky</tspan></text>
+  <text x="100" y="536" font-size="14" font-weight="600" fill="#a78bfa">Tata Consultancy Services · Bengaluru</text>
+</g>
+</svg>

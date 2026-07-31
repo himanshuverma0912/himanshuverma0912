@@ -399,6 +399,16 @@ def update_years(outdir, years):
             open(bp, "w", encoding="utf-8").write(t)
             print(f"{bf} years -> {years}")
 
+    # whoami.svg terminal card ("6.6+ yrs")
+    wp = os.path.join(outdir, "whoami.svg")
+    if os.path.exists(wp):
+        t = open(wp, encoding="utf-8").read()
+        o = t
+        t = re.sub(r'[\d.]+\+ yrs', f'{years}+ yrs', t)
+        if t != o:
+            open(wp, "w", encoding="utf-8").write(t)
+            print(f"whoami.svg years -> {years}")
+
 
 # ----------------------------------------------------------------------------
 # 5. Main

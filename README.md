@@ -35,9 +35,7 @@
 
 ### `whoami`
 
-**Senior GenAI Engineer** with **6.6+ years** building **LLM, NLP &amp; Agentic AI** systems in production.
-Currently architecting **Agent-to-Agent (A2A)** frameworks with **LangGraph + MCP** at **HDFC**.
-I turn complex, messy data into autonomous, reliable AI — **RAG**, **LLMOps** (gateways · guardrails · evals) and **MLOps**, end to end.
+<img src="whoami.svg?v=1" alt="whoami — Senior GenAI Engineer, 6.6+ yrs, LLM / NLP / Agentic AI" width="900"/>
 
 </div>
 
@@ -48,14 +46,9 @@ I turn complex, messy data into autonomous, reliable AI — **RAG**, **LLMOps** 
 
 ### `experience`
 
-</div>
+<img src="experience.svg?v=1" alt="experience timeline — HDFC, Ascendion/IQVIA, Tech Mahindra/Samsung Bixby, TCS" width="900"/>
 
-| Role | Company | When | Impact |
-|:--|:--|:--|:--|
-| **Senior GenAI Engineer** | HDFC · Bengaluru | Jun 2025 – Present | Built an autonomous **A2A** credit-card analysis framework (**LangGraph + MCP**) → **+25%** analyzer capability; NLP statement summarization → **+40%** extraction efficiency; migrated Airflow orchestration to GCP Cloud Composer |
-| **Senior GenAI Engineer** — IQVIA | Ascendion · Bengaluru | Jul 2024 – Apr 2025 | Designed &amp; fine-tuned generative-AI **OCR** models → **+15%** accuracy, **−20%** error rate; scalable Python training &amp; deployment |
-| **Software / NLP Engineer** — Samsung Bixby | Tech Mahindra · Bengaluru | Feb 2022 – Jul 2024 | Built Streaming OTT &amp; Launcher modules for Bixby; lifted accuracy **75% → 97%**; fine-tuned &amp; quantized LLMs for on-device tasks |
-| **Assistant Software Engineer** — Tata Sky | TCS · Bengaluru | Jan 2020 – Jan 2022 | Java services for channel pricing &amp; pack-management automation |
+</div>
 
 <br/>
 
@@ -145,12 +138,8 @@ I turn complex, messy data into autonomous, reliable AI — **RAG**, **LLMOps** 
 <!-- PROJECTS:START -->
 | 🚀 Project | Description | Stack |
 |:--|:--|:--|
-| **[himanshuverma0912](https://github.com/himanshuverma0912/himanshuverma0912)** | — | Python |
-| **[random_codes](https://github.com/himanshuverma0912/random_codes)** | — | Python |
-| **[ModelCostCalculator](https://github.com/himanshuverma0912/ModelCostCalculator)** | — | TypeScript |
-| **[GenAI-Equity-Research-Command-Center](https://github.com/himanshuverma0912/GenAI-Equity-Research-Command-Center)** | An enterprise-grade, agentic workstation designed to automate deep-dive equity research. | Python |
-| **[Multi-agent-systems](https://github.com/himanshuverma0912/Multi-agent-systems)** | — | — |
-| **[Gemini_Projects](https://github.com/himanshuverma0912/Gemini_Projects)** | This repository will be containing all the projects powered by Google Gemini | Python |
+| **[Real-Time LLM Cost Estimation Engine](https://github.com/himanshuverma0912)** | Web app that calculates &amp; compares real-time inference pricing across 500+ LLMs | Next.js · TypeScript |
+| **[Agentic Equity Research Command Center](https://github.com/himanshuverma0912)** | Secure multi-agent financial workstation; vectorless PageIndex + MCP over SQL & docs | Python · LangGraph · Gemini |
 <!-- PROJECTS:END -->
 
 <div align="center">

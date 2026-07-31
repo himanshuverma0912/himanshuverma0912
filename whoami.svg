@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" font-family="'SFMono-Regular','Consolas','Liberation Mono',Menlo,monospace">
+<defs>
+  <linearGradient id="wBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1830"/><stop offset="1" stop-color="#071120"/></linearGradient>
+  <linearGradient id="wBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0e2036"/><stop offset="1" stop-color="#0b1830"/></linearGradient>
+  <style>
+    @keyframes fadein{to{opacity:1}}
+    .ln{opacity:0;animation:fadein .5s ease forwards}
+    @keyframes blink{50%{opacity:0}}
+    .cur{animation:blink 1s step-end infinite}
+    text{white-space:pre}
+  </style>
+</defs>
+<rect x="1" y="1" width="898" height="248" rx="16" fill="url(#wBg)" stroke="#1f4b7a"/>
+<rect x="1" y="1" width="898" height="38" rx="16" fill="url(#wBar)"/>
+<rect x="1" y="24" width="898" height="15" fill="url(#wBar)"/>
+<circle cx="26" cy="20" r="6" fill="#ff5f56"/><circle cx="48" cy="20" r="6" fill="#ffbd2e"/><circle cx="70" cy="20" r="6" fill="#27c93f"/>
+<text x="450" y="25" text-anchor="middle" font-size="14" fill="#6f88aa">himanshu@github: ~/whoami</text>
+
+<g font-size="16">
+  <text class="ln" style="animation-delay:.1s" x="26" y="74"><tspan fill="#7dd3fc">himanshu@github</tspan><tspan fill="#6f88aa">:</tspan><tspan fill="#60a5fa">~$</tspan><tspan fill="#e6f0ff"> whoami</tspan></text>
+  <text class="ln" style="animation-delay:.5s" x="26" y="102" fill="#cfe3ff">Senior GenAI Engineer <tspan fill="#22d3ee">·</tspan> <tspan fill="#ffd76a">6.6+ yrs</tspan> <tspan fill="#22d3ee">·</tspan> LLM / NLP / Agentic AI</text>
+
+  <text class="ln" style="animation-delay:1s" x="26" y="134"><tspan fill="#7dd3fc">himanshu@github</tspan><tspan fill="#6f88aa">:</tspan><tspan fill="#60a5fa">~$</tspan><tspan fill="#e6f0ff"> cat focus.txt</tspan></text>
+  <text class="ln" style="animation-delay:1.4s" x="26" y="162" fill="#cfe3ff"><tspan fill="#22d3ee">▸</tspan> Architecting <tspan fill="#a78bfa">Agent-to-Agent (A2A)</tspan> systems — <tspan fill="#7dd3fc">LangGraph + MCP</tspan> @ HDFC</text>
+  <text class="ln" style="animation-delay:1.7s" x="26" y="188" fill="#cfe3ff"><tspan fill="#22d3ee">▸</tspan> <tspan fill="#7dd3fc">RAG</tspan> · <tspan fill="#7dd3fc">LLMOps</tspan> (gateways · guardrails · evals) · <tspan fill="#7dd3fc">MLOps</tspan>, end to end</text>
+  <text class="ln" style="animation-delay:2s" x="26" y="214" fill="#cfe3ff"><tspan fill="#22d3ee">▸</tspan> Turning complex, messy data into autonomous, reliable AI</text>
+
+  <text class="ln" style="animation-delay:2.4s" x="26" y="242"><tspan fill="#7dd3fc">himanshu@github</tspan><tspan fill="#6f88aa">:</tspan><tspan fill="#60a5fa">~$</tspan><tspan class="cur" fill="#22d3ee"> ▋</tspan></text>
+</g>
+</svg>
