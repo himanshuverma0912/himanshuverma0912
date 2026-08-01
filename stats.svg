@@ -24,7 +24,7 @@
 </g>
 <g class="mono" font-size="15" transform="translate(26,80)">
   <g class="row" style="animation-delay:0.20s"><text x="0" y="0" fill="#9fb6d6">&#9733;  Total Stars Earned</text><text x="270" y="0" fill="#e6f0ff" font-weight="700">0</text></g>
-  <g class="row" style="animation-delay:0.35s"><text x="0" y="28" fill="#9fb6d6">&#8593;  Commits (last year)</text><text x="270" y="28" fill="#e6f0ff" font-weight="700">21</text></g>
+  <g class="row" style="animation-delay:0.35s"><text x="0" y="28" fill="#9fb6d6">&#8593;  Commits (last year)</text><text x="270" y="28" fill="#e6f0ff" font-weight="700">22</text></g>
   <g class="row" style="animation-delay:0.50s"><text x="0" y="56" fill="#9fb6d6">&#10227;  Total PRs</text><text x="270" y="56" fill="#e6f0ff" font-weight="700">2</text></g>
   <g class="row" style="animation-delay:0.65s"><text x="0" y="84" fill="#9fb6d6">&#9432;  Total Issues</text><text x="270" y="84" fill="#e6f0ff" font-weight="700">0</text></g>
   <g class="row" style="animation-delay:0.80s"><text x="0" y="112" fill="#9fb6d6">&#128101;  Contributed to (last yr)</text><text x="270" y="112" fill="#e6f0ff" font-weight="700">0</text></g>
