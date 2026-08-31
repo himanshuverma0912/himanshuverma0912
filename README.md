@@ -22,7 +22,7 @@
 &nbsp;
 <a href="https://github.com/himanshuverma0912?tab=followers"><img src="https://img.shields.io/github/followers/himanshuverma0912?label=Follow&style=social" alt="followers"/></a>
 &nbsp;
-<img src="https://img.shields.io/badge/Experience-6.6%2B%20years-22d3ee?style=flat" alt="experience"/>
+<img src="https://img.shields.io/badge/Experience-6.7%2B%20years-22d3ee?style=flat" alt="experience"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Open%20to-GenAI%20roles-8b5cf6?style=flat" alt="open to work"/>
 
