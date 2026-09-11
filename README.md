@@ -139,11 +139,11 @@
 | 🚀 Project | Description | Stack |
 |:--|:--|:--|
 | **[himanshuverma0912](https://github.com/himanshuverma0912/himanshuverma0912)** | — | Python |
+| **[voice_analytics](https://github.com/himanshuverma0912/voice_analytics)** | — | Python |
 | **[random_codes](https://github.com/himanshuverma0912/random_codes)** | — | Python |
 | **[ModelCostCalculator](https://github.com/himanshuverma0912/ModelCostCalculator)** | — | TypeScript |
 | **[GenAI-Equity-Research-Command-Center](https://github.com/himanshuverma0912/GenAI-Equity-Research-Command-Center)** | An enterprise-grade, agentic workstation designed to automate deep-dive equity research. | Python |
 | **[Multi-agent-systems](https://github.com/himanshuverma0912/Multi-agent-systems)** | — | — |
-| **[Gemini_Projects](https://github.com/himanshuverma0912/Gemini_Projects)** | This repository will be containing all the projects powered by Google Gemini | Python |
 <!-- PROJECTS:END -->
 
 <div align="center">
