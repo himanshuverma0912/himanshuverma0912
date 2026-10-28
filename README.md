@@ -139,7 +139,7 @@
 | 🚀 Project | Description | Stack |
 |:--|:--|:--|
 | **[himanshuverma0912](https://github.com/himanshuverma0912/himanshuverma0912)** | — | Python |
-| **[VoiceAIAgent](https://github.com/himanshuverma0912/VoiceAIAgent)** | — | Python |
+| **[VoiceAIAgent](https://github.com/himanshuverma0912/VoiceAIAgent)** | — | Go |
 | **[random_codes](https://github.com/himanshuverma0912/random_codes)** | — | Python |
 | **[ModelCostCalculator](https://github.com/himanshuverma0912/ModelCostCalculator)** | — | TypeScript · portfolio |
 | **[GenAI-Equity-Research-Command-Center](https://github.com/himanshuverma0912/GenAI-Equity-Research-Command-Center)** | An enterprise-grade, agentic workstation designed to automate deep-dive equity research. | Python · portfolio |
